@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import src from '*.bmp';
 
 class folder extends Component {
     render() {
@@ -11,3 +12,4 @@ class folder extends Component {
 }
 
 export default folder;
+
