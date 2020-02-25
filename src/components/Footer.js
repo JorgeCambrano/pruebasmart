@@ -8,6 +8,7 @@ class Footer extends components {
 
         this.state = {
 
+
         }
     }
     render (){
