@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './pages/Home';
+import Home from './pages/Home';
 
 
 
