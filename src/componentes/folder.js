@@ -1,15 +1,24 @@
-import React, { Component } from 'react';
-import src from '*.bmp';
+import React, { components } from 'react'
 
-class folder extends Component {
-    render() {
+
+
+class Footer extends components {
+    constructor(props){
+        super(props)
+          this.state = {
+
+
+        }
+    }
+    render (){
+
         return (
-            <div>
-                
-            </div>
-        );
+
+          <div>
+            Pie de pagina
+        </div>
+        )
     }
 }
 
-export default folder;
-
+export default Footer
