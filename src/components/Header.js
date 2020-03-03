@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-
-
+import Imag from '../Imagenes/FotosS/campo.jpg';
 class Header extends Component {
     render() {
         return (
             <Router>
                 <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-                        <Link className="navbar-brand" to="/">SMFLD</Link>
+                        <Link className="navbar-brand" to="/">SMARTF FIELD</Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -46,6 +45,7 @@ class Header extends Component {
                 <hr></hr>
                 <div>
                     <div class="jumbotron">
+                
                         <h1>“La mejor inversión en tu negocio es con nosotros”.</h1>
                         <p class="text-justify"> Venttas y compras de terrenos, con gestion de control de manera sistematizado en informacion
                         de detallada del terreno, mostraccion de precios, visualizacion de ubicacion y urbanizaccion.</p>
