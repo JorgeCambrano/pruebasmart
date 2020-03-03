@@ -1,6 +1,6 @@
 import react, { components} from  'react'
-
 import React from 'react';
+
 
 class Configurations extends components {
     render (){

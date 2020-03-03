@@ -1,14 +1,20 @@
-import React, { components } from 'react'
+import React, { Component } from 'react'
 
-class Home extends components {
-    render() {
+
+class Home extends Component {
+  render() {
     return (
 
-        <div>
-            Pagina de inicio.
+      <div >
+        <div class="row">
+          <div class="mx-auto text-primary"><h1>  SMARTF FIELD<span class="badge badge-secondary"> New</span></h1></div>
+         
         </div>
-    )
-    }
+
+      </div>
+    );
+  }
 }
+
 
 export default Home;
