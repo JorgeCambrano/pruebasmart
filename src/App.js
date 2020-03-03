@@ -3,15 +3,13 @@ import Home from './pages/Home';
 import Header from './components/Header';
 
 
-
-class App extends Component () {
+class App extends Component {
   render(){
-
-   return (
-
+  return (
     <div className="App">
       <Home/>
       <Header/>
+     
 
     </div>
    );
