@@ -2,19 +2,6 @@ import React, { Component } from 'react'
 
 
 class Home extends Component {
-<<<<<<< HEAD
-    render() {
-    return (
-
-        <div>
-           SMARTFIELD
-
-            
-        
-        </div>
-    );
-    }
-=======
   render() {
     return (
 
@@ -27,7 +14,6 @@ class Home extends Component {
       </div>
     );
   }
->>>>>>> master
 }
 
 
