@@ -2,17 +2,18 @@ import React, { Component } from 'react'
 
 
 class Home extends Component {
-    render() {
+  render() {
     return (
 
-        <div>
-           SMARTFIELD
-
-            
-        
+      <div >
+        <div class="row">
+          <div class="mx-auto text-primary"><h1>  SMARTF FIELD<span class="badge badge-secondary"> New</span></h1></div>
+         
         </div>
+
+      </div>
     );
-    }
+  }
 }
 
 
