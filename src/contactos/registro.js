@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
+import './form.css';
 
-class registro extends Component {
+class Registro extends Component {
     constructor(props){
         super(props);
 
         this.state={
             nombre: '',
-            apellidos: '',
-            correo: '',
-            profesion: '',
-            direccion: ''
+            apellidos: ''
         }
+
         this.handleNombre = this.handleNombre.bind(this);
        // this.handleApellidos= this.handleApellidos.bind(this);
-       // this.handleCorreo= this.handleCorreo.bind(this);
-       // this.handleProfesion= this.handleProfesion(this);
-       // this.handleDireccion= this.handleDireccion(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
     handleNombre(event){
        
         this.setState({nombre: event.target.value});
@@ -29,8 +26,9 @@ class registro extends Component {
     render() {
         return (
             <div>
-                <div class="card cardf|">
-  <h5 class="card-header">contacto</h5>
+
+<div class="card cardf|">
+  <h5 class="card-header">Alta de profesores</h5>
   <div class="card-body">
 
 
@@ -50,14 +48,15 @@ class registro extends Component {
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                                <input type="submit" value="Registrase" className="btn btn-primary"/>
+                                <input type="submit" value="Enviar" className="btn btn-primary"/>
 </form>
 </div>
   </div>
 </div>
-            </div>
-        );
-    }
-}
-
-export default registro;
+                
+                        </div>
+                        );
+                    }
+                }
+                
+export default Registro;
