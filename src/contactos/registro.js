@@ -30,7 +30,7 @@ class registro extends Component {
         return (
             <div>
                 <div class="card cardf|">
-  <h5 class="card-header">Alta de profesores</h5>
+  <h5 class="card-header">contacto</h5>
   <div class="card-body">
 
 
@@ -50,7 +50,7 @@ class registro extends Component {
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                                <input type="submit" value="Enviar" className="btn btn-primary"/>
+                                <input type="submit" value="Registrase" className="btn btn-primary"/>
 </form>
 </div>
   </div>
