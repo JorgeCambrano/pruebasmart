@@ -30,7 +30,7 @@ class registro extends Component {
         return (
             <div>
                 <div class="card cardf|">
-  <h5 class="card-header">servicios</h5>
+  <h5 class="card-header">contacto</h5>
   <div class="card-body">
 
 
