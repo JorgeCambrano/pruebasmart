@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Registro from '../contactos/registro';
+import Contacto from '../contactos/cont';
 import Home from '../pages/Home';
 import Imag from '../Imagenes/FotosS/Smart.jpeg';
 import Imag1 from '../Imagenes/FotosS/des.jpg';
@@ -35,8 +36,8 @@ class Header extends Component {
                                         Servicios </a>
 
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link className="dropdown-item" to="/Contactos">Contacto</Link>
-                                        <Link className="dropdown-item" to="/Registro">registro</Link>
+                                        <Link className="dropdown-item" to="/Cont">Contacto</Link>
+                                        <Link className="dropdown-item" to="/registro">Registro</Link>
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="IniciarSecion">Iniciar Secion </a>
 
@@ -60,20 +61,14 @@ class Header extends Component {
                     <Switch>
                     
                         <Route path= '/' exact component={Home}/>
+                        <Route path= "/cont" exact component={Contacto}/>
                         <Route path= "/registro" exact component={Registro}/>
                     </Switch>
                 </div>
                 
                 
 
-                    <div class="jumbotron" >
-                    
-                    
-                        <h1>“La mejor inversión en tu negocio es con nosotros”.</h1>
-                        <p class="text-justify"> Venttas y compras de terrenos, con gestion de control de manera sistematizado en informacion
-                        de detallada del terreno, mostraccion de precios, visualizacion de ubicacion y urbanizaccion.</p>
-                        <p><a href="#" class="btn btn-success btn-lg btn-block alert alert-success ">Registrate con nosotros </a></p>
-                    </div>
+                   
                  
                 <div>
 

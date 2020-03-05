@@ -6,16 +6,17 @@ class Home extends Component {
     return (
 
       <div >
-        
+
         <div class="row">
 
           <div class="mx-auto text-primary"><h1>  SMARTH FIELD<span class="badge badge-secondary"> New</span></h1></div>
-         
+
         </div>
-        
         <Texto/>
+        
       </div>
-      
+
+
     );
   }
 }
