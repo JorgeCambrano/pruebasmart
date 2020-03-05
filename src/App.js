@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Home from './pages/Home';
-import Header from './components/Header';
+import Header from './components/Inicio/Header';
+import Texto from './components/Inicio/texto';
 
 
 class App extends Component {
@@ -9,8 +9,8 @@ class App extends Component {
   return (
 
     <div className="App">
-      <Home/>
-      <Header/>  
+      <Header/> 
+      <Texto/> 
     </div>
 
     
@@ -18,4 +18,3 @@ class App extends Component {
 }
 }
 export default App;
-

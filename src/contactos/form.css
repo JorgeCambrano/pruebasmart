@@ -1,0 +1,37 @@
+.formp {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+.fomrmp input[type="text"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 2px solid #f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display:inline-block ;
+}
+.fromp label{
+    width: 72px;
+    display: inline-block;
+}
+.formp input[type= "submit"]{
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border-radius: 10px;
+    display: block;
+    background-color: brown;
+}
+
+.cardf {
+    width: 400px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color:rgb(83, 202, 36);
+}
