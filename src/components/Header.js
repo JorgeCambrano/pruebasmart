@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-
+import Registro from '../contactos/registro';
+import cont from '../contactos/cont';
+import Home from '../pages/Home';
+;
 
 class Header extends Component {
     render() {
@@ -28,7 +31,7 @@ class Header extends Component {
 
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <Link className="dropdown-item" to="/Contactos">Contacto</Link>
-                                        <Link className="dropdown-item" to="/Registro">Registrar</Link>
+                                        <Link className="dropdown-item" to="/Registro">registro</Link>
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="IniciarSecion">Iniciar Secion </a>
 
@@ -44,17 +47,18 @@ class Header extends Component {
                         </div>
                     </nav>
                 </div>
-                <hr></hr>
+                
+                
+                
                 <div>
-                    <div class="jumbotron">
-                        <h1>“La mejor inversión en tu negocio es con nosotros”.</h1>
-                        <p class="text-justify"> Venttas y compras de terrenos, con gestion de control de manera sistematizado en informacion
-                        de detallada del terreno, mostraccion de precios, visualizacion de ubicacion y urbanizaccion.</p>
-                        <p><a href="#" class="btn btn-success btn-lg btn-block">Registrate con nosotros </a></p>
+                    <Switch>
                     
-                    </div>
+                        <Route path= '/' exact component={Home}/>
+                        <Route path= "/registro" exact component={Registro}/>
+                    </Switch>
                 </div>
-
+                
+                
 
             </Router>
 

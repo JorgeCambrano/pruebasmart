@@ -7,11 +7,17 @@ class Registro extends Component {
 
         this.state={
             nombre: '',
-            apellidos: ''
+            apellidos: '',
+            correo: '',
+            profesion: '',
+            direccion: ''
         }
 
         this.handleNombre = this.handleNombre.bind(this);
        // this.handleApellidos= this.handleApellidos.bind(this);
+       // this.handleCorreo= this.handleCorreo.bind(this);
+       // this.handleProfesion= this.handleProfesion(this);
+       // this.handleDireccion= this.handleProfesion(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
@@ -28,7 +34,7 @@ class Registro extends Component {
             <div>
 
 <div class="card cardf|">
-  <h5 class="card-header">Alta de profesores</h5>
+  <h5 class="card-header">Registro</h5>
   <div class="card-body">
 
 
@@ -43,6 +49,18 @@ class Registro extends Component {
                         <div class="form-group">
                             <label for="apellidos">Apellido</label>
                             <input type="text" className="form-control" id="apellidos" placeholder="Ingrese sus apellidos" name="apellidos"/>
+ </div>
+                       <div class="form-group">
+                            <label for="correo">Correo</label>
+                            <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo"/>
+ </div>
+                       <div class="form-group">
+                            <label for="profesion">Profesion</label>
+                            <input type="text" className="form-control" id="profesion" placeholder="Ingrese su profesion" name="profesion"/>
+ </div>
+                         <div class="form-group">
+                            <label for="direccion">Direccion</label>
+                            <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion"/>
  </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
