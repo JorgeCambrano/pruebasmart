@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-
+import Imag from '../Imagenes/FotosS/Smart.jpeg';
+import Imag1 from '../Imagenes/FotosS/des.jpg';
+import Imag2 from '../Imagenes/FotosS/crokis.jpg';
+import Imag3 from '../Imagenes/FotosS/fracc.jpg';
 
 class Header extends Component {
     render() {
         return (
-            
+
             <Router>
                 <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-                        <Link className="navbar-brand" to="/">SMFLD</Link>
+                        <Link className="navbar-brand" to="/">
+                            <img src={Imag} class="img-rounded" alt="Login" width="80" height="80" /></Link>
+
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                          <span className="navbar-toggler-icon"></span>
+                            <span className="navbar-toggler-icon"></span>
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,6 +43,7 @@ class Header extends Component {
                             <form className="form-inline my-2 my-lg-0">
                                 <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                                 <button type="button" class="btn btn-success">Buscar</button>
+
                             </form>
 
 
@@ -46,28 +52,66 @@ class Header extends Component {
                 </div>
                 <hr></hr>
                 <div>
-                    <div class="jumbotron">
+                    <div class="jumbotron" >
+                    
+                    
                         <h1>“La mejor inversión en tu negocio es con nosotros”.</h1>
                         <p class="text-justify"> Venttas y compras de terrenos, con gestion de control de manera sistematizado en informacion
                         de detallada del terreno, mostraccion de precios, visualizacion de ubicacion y urbanizaccion.</p>
-                        <p><a href="#" class="btn btn-success btn-lg btn-block">Registrate con nosotros </a></p>
-                    
+                        <p><a href="#" class="btn btn-success btn-lg btn-block alert alert-success ">Registrate con nosotros </a></p>
+                    </div>
+                </div>
+                <div>
+
+                    <div class="container-fluid bg-2 text-center">
+                    <div class="col-sm-4">
+                            <img src={Imag2} class="img-responsive margin" alt="Image" />
+                        </div>
+                        <h3 class="margin">What Am I?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <a href="#" class="btn btn-default btn-lg">
+
+                        </a>
                     </div>
                 </div>
 
+                <hr></hr>
+                
+                <div class="container-fluid bg-3 text-center" />
+                <h3 class="margin">Where To Find Me?</h3>
+                    <div class="row">
+                        <div class="col-sm-4">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img src={Imag3} class="img-responsive margin"  alt="Image" />
+                        </div>
+                        <div class="col-sm-4">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         <img src={Imag1} class="img-responsive margin"  alt="Image" />
+                        </div>
+                    </div>
+                
+
+                    <hr></hr>
+                    <footer class="container-fluid text-center">
+                        <p>PIE DE PAGINA</p>
+                    </footer>
+                    <div className="App-header"/>
 
             </Router>
-
-
-
-        );
-    }
-}
-
-export default Header;
+            
 
 
 
 
 
-
+                );
+            }
+        }
+        
+        export default Header;
+        
+        
+        
+        
+        
+        
