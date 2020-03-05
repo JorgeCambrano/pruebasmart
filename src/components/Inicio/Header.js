@@ -81,9 +81,6 @@ class Header extends Component {
             }
         }
 
-        function ligaRegistro(){
-            
-        }
         
         export default Header;
         
