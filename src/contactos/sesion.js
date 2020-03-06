@@ -2,35 +2,44 @@ import React, { Component } from 'react';
 import './form.css';
 
 class sesion extends Component {
+ 
     render() {
         return (
-            <div>
+            <div> 
                 
-                <form>
-                <div class="card cardf|">
-                        <h5 class="card-header">Iniciar Sesion</h5>
-                        <div class="card-body"></div>
-                        </div>
+                <div class="container">
+                <h5 class="abs-center">Iniciar sesion</h5>
+                    <div class="abs-center">
                     
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Ingrese su Correo</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                            <small id="emailHelp" class="form-text text-muted"></small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Ingrese su contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" />
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-
-                        </div>
-                        <button type="submit" class="btn btn-primary">Iinciar</button>
-                       </form>
-                        </div>
+                        <form action="#" class="border p-4 form"/>
                         
-                );
+                            <div class="form-group">
+                            
+                                <label for="email">Correo</label>
+                                <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
+                           
+                                
+                             </div>
+                             
+                                <div class="form-group">
+                                
+                                    <label for="password">Contraseña</label>
+                                    <input type="text" className="form-control" id="passWord" placeholder="Ingrese su contraseña" name="passWord" />
+                                    
+                                    
+                                </div>
+                                
+                                <input type="submit" value="Enviar" className="btn btn-primary"/>
+                               
+                                
+                                
+                       </div>
+                       
+                    </div>
+            </div>
+                            
+        );
+               }
             }
-        }
-        
+            
 export default sesion;

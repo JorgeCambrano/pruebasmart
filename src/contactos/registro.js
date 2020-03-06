@@ -62,10 +62,7 @@ class Registro extends Component {
                             <label for="direccion">Direccion</label>
                             <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion"/>
  </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
+                       
                                 <input type="submit" value="Enviar" className="btn btn-primary"/>
 </form>
 </div>
