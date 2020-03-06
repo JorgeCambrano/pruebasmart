@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Registro from '../../contactos/registro';
+import Contacto from '../../contactos/contacto';
+import Sesion from '../../contactos/sesion';
 import Home from '../../pages/Home';
 import Imag from './../../Imagenes/FotosS/Smart.jpeg';
 import '../../pages/home.css';
@@ -35,10 +37,10 @@ class Header extends Component {
                                         Servicios </a>
 
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link className="dropdown-item" to="/Contactos">Contacto</Link>
+                                        <Link className="dropdown-item" to="/Contacto">contacto</Link>
                                         <Link className="dropdown-item" to="/Registro">registro</Link>
                                         <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="IniciarSecion">Iniciar Secion </a>
+                                        <a className="dropdown-item" href="/sesion">Iniciar Sesion </a>
 
                                     </div>
                                 </li>
@@ -58,7 +60,9 @@ class Header extends Component {
                 <div>
                     <Switch>
                         <Route path= '/' exact component={Home}/>
+                        <Route path= "/contacto" exact component={Contacto}/>
                         <Route path= "/registro" exact component={Registro}/>
+                        <Route path= "/sesion" exact component= {Sesion}/>
                     </Switch>
                 </div>
                 

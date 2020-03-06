@@ -35,3 +35,16 @@
     margin: auto;
     background-color:rgb(83, 202, 36);
 }
+
+
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+}
+ 
+.form {
+  width: 50px;
+}
