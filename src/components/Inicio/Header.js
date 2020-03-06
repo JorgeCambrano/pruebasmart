@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Registro from '../../contactos/registro';
 import Home from '../../pages/Home';
 import Imag from './../../Imagenes/FotosS/Smart.jpeg';
-
+import '../../pages/home.css';
 
 class Header extends Component {
 
@@ -11,13 +11,10 @@ class Header extends Component {
         return (
 
             <Router>
-                <div className="container-fluid ">
-                <div class="row">
-                <div class="mx-auto text-primary "><h1>  SMARTH FIELD<span class="badge badge-secondary"> New</span></h1></div>
-                </div>
+                <div className="container-fluid">
             
-                    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-                        <Link className="navbar-brand" to="/">SMFLD</Link>
+                    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                        <Link className="navbar-brand text-success" to="/"><strong>SMFLD</strong></Link>
                         <Link className="navbar-brand" to="/">
                             <img src={Imag} class="img-rounded" alt="Login" width="80" height="80" /></Link>
 
@@ -56,7 +53,8 @@ class Header extends Component {
                         </div>
                     </nav>
                 </div>
-                
+                <br/>
+                <br/>
                 <div>
                     <Switch>
                         <Route path= '/' exact component={Home}/>
@@ -67,9 +65,10 @@ class Header extends Component {
               
 
                     <hr></hr>
-                    <footer class="container-fluid text-center">
+                    <footer class="container-fluid text-center ">
                         <p>PIE DE PAGINA</p>
                     </footer>
+                    
                     <div className="App-header"/>
 
             
