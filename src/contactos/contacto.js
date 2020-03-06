@@ -6,11 +6,13 @@ class cont extends Component {
     render() {
         return (
             <div>
+               <br></br>
                 <hr></hr>
                 <div class="container">
                     <div class="row">
-
+                 
                         <div class="col-sm-4">
+                        
                             <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
 
                             <div class="card-body ">
