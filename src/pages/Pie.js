@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LogoT from './../Imagenes/FotosS/Logo-Tec.png';
+import Arbol from './../Imagenes/FotosS/arboles.png';
 class Pie extends Component {
     render() {
         return (
@@ -7,7 +8,7 @@ class Pie extends Component {
 
                 <footer class="container-fluid text-center   ">
                     <h1> INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS</h1>
-                    <h2>SISTEMA DE CAMPO INTELIGENTE</h2>
+                    <h2>SISTEMA DE CAMPO INTELIGENTE  <img src={Arbol} class="img-rounded" alt="Logiin" width="80" height="80" /></h2> 
                     <p>Ingenieria en Sistemas Computacionales</p>
                     <h3>Docente: Dany Cambrano Álvaro</h3>
                     <h3>Asignatura: Tópicos Avanzados de Programación </h3>
@@ -15,6 +16,7 @@ class Pie extends Component {
                     <h3>Correo oficial:        </h3>
                     <h3>Numero de la empresa:  </h3>
                     <img src={LogoT} class="img-rounded" alt="Logiin" width="80" height="80" />
+                   
 
                 </footer>
 
