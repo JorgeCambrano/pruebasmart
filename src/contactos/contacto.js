@@ -8,10 +8,11 @@ class cont extends Component {
             <div>
                <br></br>
                 <hr></hr>
+                <br/>
                 <div class="container">
                     <div class="row">
-                 
-                        <div class="col-sm-4">
+            
+                        <div class="col-sm-8">
                         
                             <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
 
