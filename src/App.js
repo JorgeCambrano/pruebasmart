@@ -9,7 +9,11 @@ class App extends Component {
 
     <div className="App">
       <Header/> 
-      <div className="home-fondo"> sbdsbdjsns </div>
+<<<<<<< HEAD
+      
+=======
+    
+>>>>>>> estilos
     
     </div>
 
