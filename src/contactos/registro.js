@@ -39,43 +39,40 @@ class Registro extends Component {
 
                         <div class="row">
 
+                        </div>
 
 
 
-
-                            <form onSubmit={this.handleSubmit} >
+                        <form onSubmit={this.handleSubmit} >
+                            <div class="form-group">
                                 <div class="abs-center"/>
-                                    <form action="#" class="border p-0 form"/>
-                                        <div class="form-group">
-                                            
-                                     </div>
+                                    <form action="#" class="  form"/>
                                         <label for="nombre">Nombre</label>
 
                                         <input type="text" className="form-control" id="nombre" aria-describedby="nombre" placeholder="Escriba su nombre completo" name="nombre" value={this.state.nombre} onChange={this.handleNombre} />
+                           
+ </div>
+                                    <div class="form-group">
+                                        <label for="apellidos">Apellido</label>
+                                        <input type="text" className="form-control" id="apellidos" placeholder="Ingrese sus apellidos" name="apellidos" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="correo">Correo</label>
+                                        <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="profesion">Profesion</label>
+                                        <input type="text" className="form-control" id="profesion" placeholder="Ingrese su profesion" name="profesion" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="direccion">Direccion</label>
+                                        <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion" />
+                                    </div>
 
-
-                                        <div class="form-group">
-                                            <label for="apellidos">Apellido</label>
-                                            <input type="text" className="form-control" id="apellidos" placeholder="Ingrese sus apellidos" name="apellidos" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="correo">Correo</label>
-                                            <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="profesion">Profesion</label>
-                                            <input type="text" className="form-control" id="profesion" placeholder="Ingrese su profesion" name="profesion" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="direccion">Direccion</label>
-                                            <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion" />
-                                        </div>
-
-                                        <input type="submit" value="Enviar" className="btn btn-primary" />
-                                    </form>
-                                </div>
-                    </div>
-                        </div>
+                                    <input type="submit" value="Enviar" className="btn btn-primary" />
+</form>
+                            </div>
+  </div>
                     </div>
 
                     );

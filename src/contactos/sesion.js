@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './form.css';
+import './forma.css';
 
 class sesion extends Component {
  
@@ -7,29 +7,30 @@ class sesion extends Component {
         return (
             <div> 
                 
-                <div class="container">
-                <h5 class="abs-center">Iniciar sesion</h5>
-                    <div class="abs-center">
+                <div className="container">
+                <h5 className="abs-center">Iniciar sesion</h5>
+                    <div >
                     
-                        <form action="#" class="border p-4 form"/>
+                        <forma action="#" className="border  forma"/>
                         
-                            <div class="form-group">
+                            <div className="forma-group">
                             
-                                <label for="email">Correo</label>
-                                <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
+                                <label for="email">Correo usu</label>
+                                <input type="text" className="forma-control" id="correo" placeholder="Ingrese su correo" name="correo" />
                            
                                 
                              </div>
                              
-                                <div class="form-group">
+                                <div className="forma-group">
                                 
-                                    <label for="password">Contraseña</label>
-                                    <input type="text" className="form-control" id="passWord" placeholder="Ingrese su contraseña" name="passWord" />
+                                    <label form="password">Contraseña</label>
+                                    <input type="text" className="forma-control" id="passWord" placeholder="Ingrese su contraseña" name="passWord" />
                                     
                                     
                                 </div>
-                                
+                                <div className="forma-group">
                                 <input type="submit" value="Enviar" className="btn btn-primary"/>
+                                </div>
                                
                                 
                                 
