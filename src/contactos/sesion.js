@@ -8,28 +8,29 @@ class sesion extends Component {
             <div> 
                 
                 <div className="container">
-                <h5 className="abs-center">Iniciar sesion</h5>
+                    <div class="abs-center"></div>
+                <h5 >Iniciar sesion</h5>
                     <div >
                     
                         <forma action="#" className="border  forma"/>
                         
                             <div className="forma-group">
                             
-                                <label for="email">Correo usu</label>
-                                <input type="text" className="forma-control" id="correo" placeholder="Ingrese su correo" name="correo" />
+                                <label for="email">Correo usuario</label>
+                                <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
                            
                                 
                              </div>
                              
-                                <div className="forma-group">
+                                <div className="form-group">
                                 
                                     <label form="password">Contraseña</label>
-                                    <input type="text" className="forma-control" id="passWord" placeholder="Ingrese su contraseña" name="passWord" />
+                                    <input type="text" className="form-control" id="passWord" placeholder="Ingrese su contraseña" name="passWord" />
                                     
                                     
                                 </div>
-                                <div className="forma-group">
-                                <input type="submit" value="Enviar" className="btn btn-primary"/>
+                                <div className="form-group">
+                                <input type="submit" value="Iniciar" className="btn btn-primary"/>
                                 </div>
                                
                                 

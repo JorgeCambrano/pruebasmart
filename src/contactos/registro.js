@@ -44,9 +44,11 @@ class Registro extends Component {
 
 
                         <form onSubmit={this.handleSubmit} >
-                            <div class="form-group">
-                                <div class="abs-center"/>
+                            <div clas="container"/>
+                            <div class="abs-center">                            
+                                
                                     <form action="#" class="  form"/>
+                                    <div class="form-group">
                                         <label for="nombre">Nombre</label>
 
                                         <input type="text" className="form-control" id="nombre" aria-describedby="nombre" placeholder="Escriba su nombre completo" name="nombre" value={this.state.nombre} onChange={this.handleNombre} />
@@ -70,7 +72,9 @@ class Registro extends Component {
                                     </div>
 
                                     <input type="submit" value="Enviar" className="btn btn-primary" />
+                                    </div>
 </form>
+                          
                             </div>
   </div>
                     </div>

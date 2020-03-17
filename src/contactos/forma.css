@@ -20,19 +20,3 @@
     display: inline-block;
     font-weight: bold;
 }
-.formal input[type= "submit"]{
-    width: 100%;
-    padding: 8px 16px;
-    margin-top: 32px;
-    border-radius: 10px;
-    display: block;
-    background-color: brown;
-}
-
-.cardf {
-    width: 400px;
-    padding: 16px;
-    border-radius: 10px;
-    margin: auto;
-    background-color:rgb(83, 202, 36);
-}
