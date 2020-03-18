@@ -1,0 +1,22 @@
+.formal {
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+.formal input[type="text"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 2px solid #f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 3px;
+    margin: 20px 0;
+    display:inline-block ;
+}
+.formal label{
+    width: 72px;
+    display: inline-block;
+    font-weight: bold;
+}
