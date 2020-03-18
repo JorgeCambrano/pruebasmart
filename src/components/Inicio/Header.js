@@ -4,7 +4,7 @@ import Registro from '../../contactos/registro';
 import Contacto from '../../contactos/contacto';
 import Sesion from '../../contactos/sesion';
 import Home from '../../pages/Home';
-import Imag from './../../Imagenes/FotosS/Smart.jpeg';
+import Imag from './../../Imagenes/FotosS/logiyy.png';
 import Img2 from './../../Imagenes/FotosS/arbo.png';
 import Ser from './../../Imagenes/FotosS/serve.png';
 import sem from './../../Imagenes/FotosS/brote.png';

@@ -33,12 +33,12 @@ class Home extends Component {
               </div>
 
               <div class="col-sm-4">
-                <p>•Gestión fiable de contabilidad .</p>
+                <p>•Gestión fiable de contabilidad</p>
                 <img src={Imag1} class="img-responsive margin" alt="Image" />
               </div>
 
               <div class="col-sm-4">
-                <p>•Gestión fiable de contabilidad .</p>
+                <p>•Alcance de obtener áreas y ángulos  exactos</p>
                 <img src={Imag1} class="img-responsive margin" alt="Image" />
               </div>
 
