@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Imag1 from '../Imagenes/FotosS/perfil.JPG';
 import Imag2 from '../Imagenes/FotosS/perfil2.jpeg';
+import WhatsApp from '../Imagenes/FotosS/watsap.jpg';
+import FACEBOOK from '../Imagenes/FotosS/face.jpg';
+
 
 class cont extends Component {
     render() {
@@ -20,8 +23,8 @@ class cont extends Component {
                                 <p class="card-text">DANIEL ARCOS ALVARO</p>
                                 <p>Ingeniero en sistemas computacionales</p>
                                 <p>ENCARGADO DE LA EMPRESA</p>
-                                <p>FACEBOOK: dani AB Alvarado </p>
-                                <p>WhatsApp: +52 9161116705</p>
+                                <p>  <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/>  dani AB Alvarado </p>
+                                 <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/>  +52 9161116705</p>
                             </div>
                         </div>
                         <div className="col-sm-4">
@@ -32,8 +35,8 @@ class cont extends Component {
                                     <p class="card-text">JORGE JESUS MENDEZ CAMBRANO </p>
                                     <p>Ingeniero en sistemas computacionales </p>
                                     <p>ENCARGADO DE LA EMPRESA </p>
-                                    <p>FACEBOOK: Jorge J Cambrano </p>
-                                    <p>WhatsApp: +52 9161317186.</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Jorge J Cambrano </p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 9161317186.</p>
                                 </div>
                             </div>
 

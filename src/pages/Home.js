@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Imag1 from './../Imagenes/FotosS/optimi.png';
-import Imag3 from './../Imagenes/FotosS/conta.png';
+import Imag1 from './../Imagenes/FotosS/gestion.gif';
+import Imag3 from './../Imagenes/FotosS/optimi.gif';
+import Imag4 from './../Imagenes/FotosS/mapa.gif';
 import Carrusel from './carrusel';
 
 
@@ -28,19 +29,20 @@ class Home extends Component {
             <div class="p-3 mb-2 bg-dark text-success text-center"><h1> ¿QUE TE OFRECEMOS?    </h1></div>
             <div class="row">
               <div class="col-sm-4">
-                <p >•	Optimización  de trabajo laboral de campo</p>
-                <img src={Imag3} class="img-responsive margin" alt="Image" />
+                <h4>•	Optimización  de trabajo laboral </h4>
+                <img src={Imag3} class="img-rounded" alt="Login" width="300" height="300" />
               </div>
 
               <div class="col-sm-4">
-                <p>•Gestión fiable de contabilidad .</p>
-                <img src={Imag1} class="img-responsive margin" alt="Image" />
+                <h4>•Gestión fiable de contabilidad .</h4>
+                <img src={Imag1} class="img-rounded" alt="Login" width="300" height="300"  />
+              </div>
+              <div class="col-sm-4">
+                <h4>•	El uso aplicable de un navegador (Google Maps) </h4>
+                <img src={Imag4} class="img-rounded" alt="Login" width="300" height="280" />
               </div>
 
-              <div class="col-sm-4">
-                <p>•Gestión fiable de contabilidad .</p>
-                <img src={Imag1} class="img-responsive margin" alt="Image" />
-              </div>
+              
 
             </div>
             <hr></hr>
