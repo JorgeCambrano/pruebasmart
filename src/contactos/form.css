@@ -3,7 +3,7 @@
     padding: 16px;
     border-radius:10px;
     margin: auto;
-    background-color:#ccc;
+    background-color:rgba(228, 235, 229, 0.774);
 }
 
 .formp input[type="text"]{
@@ -28,7 +28,7 @@
     margin-top: 32px;
     border-radius: 10px;
     display: block;
-    background-color: #000;
+    background-color: rgb(206, 27, 21);
     color:#fff
 }
 
@@ -37,7 +37,4 @@
     padding: 16px;
     border-radius:10px;
     margin: auto;
-}
-.form{
-    width: 300px;
 }
