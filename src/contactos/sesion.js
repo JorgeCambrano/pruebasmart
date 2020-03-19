@@ -17,7 +17,7 @@ class sesion extends Component {
                             <div className="forma-group">
                             
                                 <label for="email">Correo usuario</label>
-                                <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
+                                <input type="email" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
                            
                                 
                              </div>

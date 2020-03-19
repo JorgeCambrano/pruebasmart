@@ -34,22 +34,12 @@ class Home extends Component {
               </div>
 
               <div class="col-sm-4">
-<<<<<<< HEAD
-                <p>•Gestión fiable de contabilidad</p>
-                <img src={Imag1} class="img-responsive margin" alt="Image" />
-=======
                 <h4>•Gestión fiable de contabilidad .</h4>
                 <img src={Imag1} class="img-rounded" alt="Login" width="300" height="300"  />
->>>>>>> master
               </div>
               <div class="col-sm-4">
-<<<<<<< HEAD
-                <p>•Alcance de obtener áreas y ángulos  exactos</p>
-                <img src={Imag1} class="img-responsive margin" alt="Image" />
-=======
                 <h4>•	El uso aplicable de un navegador (Google Maps) </h4>
                 <img src={Imag4} class="img-rounded" alt="Login" width="300" height="280" />
->>>>>>> master
               </div>
 
               

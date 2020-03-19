@@ -7,15 +7,12 @@ class Pie extends Component {
             <div>
 
                 <footer class="container-fluid text-center   ">
-<<<<<<< HEAD
                     <h1> INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS</h1>
                     <h2>SISTEMA DE CAMPO INTELIGENTE </h2> 
                     <p>Ingenieria en Sistemas Computacionales</p>
-=======
                 <div class="p-3 mb-2 bg-dark text-success text-center"><h1> INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS</h1> </div>
                     <h2>SISTEMA DE CAMPO INTELIGENTE  <img src={Arbol} class="img-rounded" alt="Logiin" width="80" height="80" /></h2> 
                     <h3>Ingenieria en Sistemas Computacionales</h3>
->>>>>>> master
                     <h3>Docente: Dany Cambrano Álvaro</h3>
                     <h3>Asignatura: Tópicos Avanzados de Programación </h3>
                     <h5>Fecha de creacion: 01/02/2020</h5>
