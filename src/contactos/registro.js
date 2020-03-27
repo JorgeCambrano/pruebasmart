@@ -33,54 +33,66 @@ class Registro extends Component {
         return (
             <div>
 
-                <div class="card cardf|">
-                    <h5 class="card-header">Registro <small>De Usuario.</small></h5>
-                    <div class="card-body">
 
-                        <div class="row">
-
-                        </div>
+                <div className="row">
+                    <div className="col-lg-12">
 
 
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <br/>
 
-                        <form onSubmit={this.handleSubmit} >
-                            <div clas="container"/>
-                            <div class="abs-center">                            
-                                
-                                    <form action="#" class="  form"/>
-                                    <div class="form-group">
-                                        <label for="nombre">Nombre</label>
+                        <div class="card cardf|">
+                            <br/>
 
-                                        <input type="text" className="form-control" id="nombre" aria-describedby="nombre" placeholder="Escriba su nombre completo" name="nombre" value={this.state.nombre} onChange={this.handleNombre} />
-                           
- </div>
-                                    <div class="form-group">
-                                        <label for="apellidos">Apellido</label>
-                                        <input type="text" className="form-control" id="apellidos" placeholder="Ingrese sus apellidos" name="apellidos" />
+                            <h5 class="card-header">Registro <small>De Usuario.</small></h5>
+                            <div class="card-body">                                                           
+
+                                <form onSubmit={this.handleSubmit} >
+                                    <div clas="container" />
+                                    <div class="formp">
+
+                                        <form action="#" class="  form" />
+                                        <div class="form-group">
+                                            <label for="nombre">Nombre</label>
+
+                                            <input type="text" className="form-control" id="nombre" aria-describedby="nombre" placeholder="Ingrese su nombre " name="nombre" value={this.state.nombre} onChange={this.handleNombre} />
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="apellidos">Apellido</label>
+                                            <input type="text" className="form-control" id="apellidos" placeholder="Ingrese sus apellidos" name="apellidos" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="correo">Correo</label>
+                                            <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="profesion">Profesion</label>
+                                            <input type="text" className="form-control" id="profesion" placeholder="Ingrese su profesion" name="profesion" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="direccion">Direccion</label>
+                                            <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion" />
+                                        </div>
+
+                                        <input type="submit" value="Enviar" className="btn btn-primary" />
                                     </div>
-                                    <div class="form-group">
-                                        <label for="correo">Correo</label>
-                                        <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="profesion">Profesion</label>
-                                        <input type="text" className="form-control" id="profesion" placeholder="Ingrese su profesion" name="profesion" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="direccion">Direccion</label>
-                                        <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion" />
-                                    </div>
+                                </form>
 
-                                    <input type="submit" value="Enviar" className="btn btn-primary" />
-                                    </div>
-</form>
-                          
                             </div>
-  </div>
+                        </div>
                     </div>
 
-                    );
-                }
-            }
-            
+                </div>
+            </div>
+
+
+
+        );
+    }
+}
+
 export default Registro;
