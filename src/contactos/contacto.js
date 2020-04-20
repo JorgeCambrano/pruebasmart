@@ -3,6 +3,7 @@ import Imag1 from '../Imagenes/FotosS/perfil.JPG';
 import Imag2 from '../Imagenes/FotosS/perfil2.jpeg';
 import WhatsApp from '../Imagenes/FotosS/watsap.jpg';
 import FACEBOOK from '../Imagenes/FotosS/face.jpg';
+import Mapa from '../../src/mapa/mapa';
 
 
 class cont extends Component {
@@ -13,7 +14,7 @@ class cont extends Component {
                 <hr></hr>
                 <br/>
                 <div class="container">
-                    <div class="row">
+                    <div class="row ">
             
                         <div class="col-sm-8">
                         
@@ -46,6 +47,8 @@ class cont extends Component {
                         </div>
                     </div>
                 </div>
+                <Mapa/>
+
             </div>
         );
     }

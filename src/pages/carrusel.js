@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Imag1 from './../Imagenes/FotosS/Carrusel1.jpg';
-import Imag2 from './../Imagenes/FotosS/Smar.jpeg';
+import Imag2 from './../Imagenes/FotosS/cuate.jpeg';
 import Imag3 from './../Imagenes/FotosS/Carrusel4.jpg';
 
 

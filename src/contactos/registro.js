@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import './sesion.css';
 import './form.css';
+
 
 class Registro extends Component {
     constructor(props) {
@@ -14,83 +16,76 @@ class Registro extends Component {
         }
 
         this.handleNombre = this.handleNombre.bind(this);
-        // this.handleApellidos= this.handleApellidos.bind(this);
-        // this.handleCorreo= this.handleCorreo.bind(this);
-        // this.handleProfesion= this.handleProfesion(this);
-        // this.handleDireccion= this.handleProfesion(this);
+        this.handleApellidos = this.handleApellidos.bind(this);
+        this.handleCorreo = this.handleCorreo.bind(this);
+        this.handleProfesion = this.handleProfesion.bind(this);
+        this.handleDireccion = this.handleDireccion.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleNombre(event) {
-
         this.setState({ nombre: event.target.value });
     }
+    handleApellidos(event) {
+        this.setState({ apellido: event.target.value });
+    }
+    handleCorreo(event) {
+        this.setState({ correo: event.target.value });
+    }
+    handleProfesion(event) {
+        this.setState({ profesion: event.target.value });
+    }
+    handleDireccion(event) {
+        this.setState({ direccion: event.target.value });
+    }
+
+
     handleSubmit(e) {
         e.preventDefault();
         alert('El nombre completo es: ' + this.state.nombre);
+        alert('El apellido es:' + this.state.apellidos);
+        alert('El correo asignado es:' + this.state.correo);
+        alert('La profesión asignada es:' + this.state.correo);
+        alert('La dirección asignada es:' + this.state.direccion);
     }
+
+
     render() {
         return (
-            <div>
+            <div className="regi">
 
+                <br />
+                <br />
 
-                <div className="row">
-                    <div className="col-lg-12">
+                <form class="formi">
+                    <h2 className="formi-title"> REGISTRARSE</h2>
 
-
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-12">
-                        <br/>
-
-                        <div class="card cardf|">
-                            <br/>
-
-                            <h5 class="card-header">Registro <small>De Usuario.</small></h5>
-                            <div class="card-body">                                                           
-
-                                <form onSubmit={this.handleSubmit} >
-                                    <div clas="container" />
-                                    <div class="formp">
-
-                                        <form action="#" class="  form" />
-                                        <div class="form-group">
-                                            <label for="nombre">Nombre</label>
-
-                                            <input type="text" className="form-control" id="nombre" aria-describedby="nombre" placeholder="Ingrese su nombre " name="nombre" value={this.state.nombre} onChange={this.handleNombre} />
-
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="apellidos">Apellido</label>
-                                            <input type="text" className="form-control" id="apellidos" placeholder="Ingrese sus apellidos" name="apellidos" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="correo">Correo</label>
-                                            <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="profesion">Profesion</label>
-                                            <input type="text" className="form-control" id="profesion" placeholder="Ingrese su profesion" name="profesion" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="direccion">Direccion</label>
-                                            <input type="text" className="form-control" id="direccion" placeholder="Ingrese su direccion" name="direccion" />
-                                        </div>
-
-                                        <input type="submit" value="Enviar" className="btn btn-primary" />
-                                    </div>
-                                </form>
-
-                            </div>
-                        </div>
+                    <div className="input-block">
+                        <label for="username" class="label">Nombre de Usuario</label>
+                        <input type="text" name="username" class="input username-input" aria-describedby="nombre" placeholder="Ingrese su nombre " value={this.state.nombre} onChange={this.handleNombre} />
                     </div>
 
-                </div>
+
+                    <div className="input-block">
+                        <label for="email" class="label">Email</label>
+                        <input type="text" name="email" class="input email-input" aria-describedby="email" placeholder="Ingrese su correo electronico" value={this.state.correo} onChange={this.handleCorreo} />
+                    </div>
+
+                    <div className="input-block">
+                        <label for="direccion" class="label">Dirección</label>
+                        <input type="text" name="direccion" class="input direccion-input" aria-describedby="direccion" placeholder="Ingrese su direccion " value={this.state.direccion} onChange={this.handleDireccion} />
+                    </div>
+
+
+                    <input   type="submit" value="Enviar" className="btn btn-primary" />
+
+                </form>
+
             </div>
 
 
 
+           
         );
     }
 }

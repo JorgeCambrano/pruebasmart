@@ -4,15 +4,16 @@ import Registro from '../../contactos/registro';
 import Contacto from '../../contactos/contacto';
 import Sesion from '../../contactos/sesion';
 import Home from '../../pages/Home';
+import Blog from '../../Blog/blog';
+import Menu from '../../Menu/menu';
 import Imag from './../../Imagenes/FotosS/logiyy.png';
 import Img2 from './../../Imagenes/FotosS/arbo.png';
 import Ser from './../../Imagenes/FotosS/serve.png';
 import sem from './../../Imagenes/FotosS/brote.png';
 import sem1 from './../../Imagenes/FotosS/sol.png';
 import sem2 from './../../Imagenes/FotosS/ini.png';
-import '../../pages/home.css';
+import ico from './../../Blog/Multimedia/iconn.png';
 import Pie from '../../pages/Pie';
-
 
 
 class Header extends Component {
@@ -32,9 +33,7 @@ class Header extends Component {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                  
                                     <Link className="nav-link" to="Inicio">Informate<img src={Img2} class="img-rounded" alt="Login" width="50" height="50" /><span class="sr-only">(current)</span></Link>
-                                    
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"></a>
@@ -48,6 +47,14 @@ class Header extends Component {
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="/sesion">|Iniciar Sesion|<img src={sem2} class="img-rounded" alt="Login" width="50" height="50" /> </a>
                                     </div>
+                                </li>
+                               
+                                <li class="nav-item active">
+                                    <Link className="nav-link" to="/Blog">Blog<img src={ico} class="img-rounded" alt="Login" width="50" height="50"/></Link>       
+                                </li>
+  
+                                <li class="nav-item active">
+                                    <Link className="nav-link" to="/menu">Menu<img src={ico} class="img-rounded" alt="Login" width="50" height="50"/></Link>       
                                 </li>
                             </ul>
                             <form className="form-inline my-2 my-lg-0">
@@ -66,6 +73,8 @@ class Header extends Component {
                         <Route path= "/contacto" exact component={Contacto}/>
                         <Route path= "/registro" exact component={Registro}/>
                         <Route path= "/sesion" exact component= {Sesion}/>
+                        <Route path= "/blog" exact component= {Blog}/>
+                        <Route path= "/menu" exact component= {Menu}/>
                     </Switch>
                 </div>
               <br/>

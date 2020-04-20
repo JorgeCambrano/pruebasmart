@@ -1,48 +1,52 @@
 import React, { Component } from 'react';
-import './forma.css';
+import './sesion.css';
+
 
 class sesion extends Component {
 
     render() {
         return (
-            <div className="row">
-                    <div className="col-lg-12">
-                        <br/>
-                        <div class="card cardf|">
-                            <br/>
-                            <br/>
-                        <h5 class="card-header">Iniciar Sesion</h5>
-                            <div class="card-body">                                                           
+            <div className="ses">
 
-                                
-                                    <div clas="container" />
-                                    <div class="formaf">
-                                        <br/>
+                <br />
+                <br />
 
-                                        <form action="#" class="  forma" />
-                                        
-                                        <div class="form-group">
-                                            <label for="apellidos">Correo</label>
-                                            <input type="text" className="form-control" id="correo" placeholder="Ingrese su correo" name="correo" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="correo">Correo</label>
-                                            <input type="text" className="form-control" id="contraseña" placeholder="Ingrese su contraseña" name="contraseña" />
-                                        </div>
-                                        
-                                       
-
-                                        <input type="submit" value="Iniciar" className="btn btn-primary" />
-                                    </div>
-                               
-
-                            </div>
-                        </div>
+                <form class="form">
+                    <h2 class="form-title"> INICIAR SESIÓN</h2>
+                    <div class="error block">
+                        <p class="error"> </p>
                     </div>
 
-                </div>
-            
+                    <div class="input-block">
+                        <label for="username" class="label">Nombre de Usuario</label>
+                        <input type="text" name="username" class="input username-input" />
+                    </div>
 
+
+                    <div class="input-block">
+                        <label for="email" class="label">Email</label>
+                        <input type="text" name="email" class="input email-input" />
+                    </div>
+
+                    <div class="input-block">
+                        <label for="password" class="label">Password</label>
+                        <input type="password" name="password" class="input pw-input" />
+                        <p class="input-info">
+                            Debe tener al menos 6 caracteres de longitud</p>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="repeat_password" class="label">Repeat password</label>
+                        <input type="password" name="repat_password" class="input rpw-input" />
+                    </div>
+
+
+                    <div class="input-block">
+                        <input type="submit" value="Registrarse " class="input-submit" />
+                    </div>
+                </form>
+
+            </div>
         );
     }
 }

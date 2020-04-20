@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import LogoT from './../Imagenes/FotosS/Logo-Tec.png';
 import Arbol from './../Imagenes/FotosS/arboles.png';
+import '../pages/home.css';
 class Pie extends Component {
     render() {
         return (
-            <div>
+            <div className="infer">
 
                 <footer class="container-fluid text-center   ">
-                    <h1> INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS</h1>
+               
                     <h2>SISTEMA DE CAMPO INTELIGENTE </h2> 
                     <p>Ingenieria en Sistemas Computacionales</p>
                 <div class="p-3 mb-2 bg-dark text-success text-center"><h1> INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS</h1> </div>
