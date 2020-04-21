@@ -48,6 +48,12 @@ class carrusel extends Component {
           </a>
         </div>
 
+                   
+      <h1 className='display-4 bg-success text-white'><h1 className="text-center">Nuestra Misión</h1>Ser los líderes mundiales en Bienes Raíces, alcanzando nuestras metas a través
+de ayudar a otros a alcanzar las suyas. Todos ganan. </h1>
+
+
+
 
 
 
