@@ -65,6 +65,18 @@ class Registro extends Component {
                         <input type="text" name="username" class="input username-input" aria-describedby="nombre" placeholder="Ingrese su nombre " value={this.state.nombre} onChange={this.handleNombre} />
                     </div>
 
+                    <div className="input-block">
+                        <label for="username" class="label">Apellidos del Usuario</label>
+                        <input type="text" name="username" class="input username-input" aria-describedby="apellidos" placeholder="Ingrese su apellidos " value={this.state.nombre} onChange={this.handleNombre} />
+                    </div>
+
+                    <div className="input-block">
+                        <label for="username" class="label">Profesion</label>
+                        <input type="text" name="username" class="input username-input" aria-describedby="profesion" placeholder="Ingrese su profesion " value={this.state.nombre} onChange={this.handleNombre} />
+                    </div>
+
+
+
 
                     <div className="input-block">
                         <label for="email" class="label">Email</label>

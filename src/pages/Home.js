@@ -21,7 +21,7 @@ class Home extends Component {
           <h1>“¡LA MEJOR INVERSIÓN EN TÚ NEGOCIO ES CON NOSOTROS. QUE LA TECNOLOGIA TRABAJE POR TI!".</h1>
             <p class="text-justify center"> Ventas de terrenos, con gestion de control de manera sistematizado en información
                         detallada del terreno, muestra de precios, vista de ubicación y urbanización.</p>
-            <p><a href="/registro" class="btn btn-success btn-lg btn-block">Registrate con nosotros </a></p>
+            <p><a href="/registro" class="btn btn-success btn-lg btn-block  ">Registrate con nosotros </a></p>
             
 
             <div>

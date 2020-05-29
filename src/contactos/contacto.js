@@ -9,7 +9,7 @@ import Mapa from '../../src/mapa/mapa';
 class cont extends Component {
     render() {
         return (
-            <div>
+            <div className="card-body">
                <br></br>
                 <hr></hr>
                 <br/>

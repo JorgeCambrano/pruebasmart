@@ -19,8 +19,8 @@ class carrusel extends Component {
             <div class="carousel-item active">
               <img src={Imag2} class="d-block w-100" alt="data" />
               <div class="carousel-caption d-none d-md-block">
-              <h4>SISTEMA DE CAMPO INTELIGENTE.</h4>
-               
+                <h4>SISTEMA DE CAMPO INTELIGENTE.</h4>
+
               </div>
             </div>
             <div class="carousel-item">
@@ -48,19 +48,12 @@ class carrusel extends Component {
           </a>
         </div>
 
-                   
-      <h1 className='display-4 bg-success text-white'><h1 className="text-center">Nuestra Misión</h1>Ser los líderes mundiales en Bienes Raíces, alcanzando nuestras metas a través
+        <div className= "card-body">
+
+          <h1 className='display-4 bg-success text-white'><h1 className="text-center">Nuestra Misión</h1>Ser los líderes mundiales en Bienes Raíces, alcanzando nuestras metas a través
 de ayudar a otros a alcanzar las suyas. Todos ganan. </h1>
 
-
-
-
-
-
-
-
-
-
+        </div>
 
       </div>
     );
