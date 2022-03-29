@@ -79,6 +79,7 @@ class Registro extends Component {
 
 
 
+
                     <div className="input-block">
                         <label for="email" class="label">Email</label>
                         <input type="text" name="email" class="input email-input" aria-describedby="email" placeholder="Ingrese su correo electronico" value={this.state.correo} onChange={this.handleCorreo} />
