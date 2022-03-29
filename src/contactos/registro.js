@@ -50,6 +50,7 @@ class Registro extends Component {
         alert('La dirección asignada es:' + this.state.direccion);
     }
 
+    
 
     render() {
         return (
