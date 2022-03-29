@@ -73,15 +73,53 @@ class cont extends Component {
                                 <img src={Imag1} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
 
                                 <div class="card-body">
-                                    <p class="card-text">   carlos   </p>
+                                    <p class="card-text"> CARLOS MATEO MONTEJO CRUZ  </p>
                                     <p>Ingeniero en sistemas computacionales </p>
                                     <p>Analista</p>
-                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> carlos </p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Carlos Mateo </p>
                                     <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
                                 </div>
                             </div>
 
                         </div>
+
+
+
+                        <div className="col-sm-4">
+                            <div class="container-fluid bg-3 text-center">
+                                <img src={Imag1} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
+
+                                <div class="card-body">
+                                    <p class="card-text">JULIO CESAR ALVARO LOPEZ  </p>
+                                    <p>Ingeniero en sistemas computacionales </p>
+                                    <p>Diseñador</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Julio LOPEZ </p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div className="col-sm-4">
+                            <div class="container-fluid bg-3 text-center">
+                                <img src={Imag1} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
+
+                                <div class="card-body">
+                                    <p class="card-text">GERSON ISAI CRUZ VELAZQUEZ  </p>
+                                    <p>Ingeniero en sistemas computacionales </p>
+                                    <p>CHALAN</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Julio LOPEZ </p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
 
  
 
