@@ -21,11 +21,12 @@ class cont extends Component {
                             <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
 
                             <div class="card-body ">
-                                <p class="card-text">DANIEL ARCOS ALVARO</p>
+                                <p class="card-text">ALVARO JOSE PEREZ  VELAZQUEZ</p>
                                 <p>Ingeniero en sistemas computacionales</p>
                                 <p>ENCARGADO DE LA EMPRESA</p>
-                                <p>  <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/>  dani AB Alvarado </p>
-                                 <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/>  +52 9161116705</p>
+
+                                <p>  <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/>  Alvaro jose  </p>
+                                 <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/>  +52 934-260-09-65</p>
                             </div>
                         </div>
                         <div className="col-sm-4">
@@ -41,10 +42,52 @@ class cont extends Component {
                                 </div>
                             </div>
 
+                        </div>
+                        
+                      
+         
+                        
+                      
+
+                        
 
 
+
+                        <div className="col-sm-4">
+                            <div class="container-fluid bg-3 text-center">
+                                <img src={Imag1} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
+
+                                <div class="card-body">
+                                    <p class="card-text">   PATRICIA GPE MENDOZA LOPEZ  </p>
+                                    <p>Ingeniero en sistemas computacionales </p>
+                                    <p>Analista</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> PATRICIA MENDOZA</p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
+                                </div>
+                            </div>
 
                         </div>
+
+                        <div className="col-sm-4">
+                            <div class="container-fluid bg-3 text-center">
+                                <img src={Imag1} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
+
+                                <div class="card-body">
+                                    <p class="card-text">   carlos   </p>
+                                    <p>Ingeniero en sistemas computacionales </p>
+                                    <p>Analista</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> carlos </p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+ 
+
+
+
+
                     </div>
                 </div>
                 <Mapa/>

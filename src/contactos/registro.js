@@ -9,14 +9,14 @@ class Registro extends Component {
 
         this.state = {
             nombre: '',
-            apellidos: '',
+            apellido: '',
             correo: '',
             profesion: '',
             direccion: ''
         }
 
         this.handleNombre = this.handleNombre.bind(this);
-        this.handleApellidos = this.handleApellidos.bind(this);
+        this.handleApellido = this.handleApellido.bind(this);        
         this.handleCorreo = this.handleCorreo.bind(this);
         this.handleProfesion = this.handleProfesion.bind(this);
         this.handleDireccion = this.handleDireccion.bind(this);
@@ -26,9 +26,10 @@ class Registro extends Component {
     handleNombre(event) {
         this.setState({ nombre: event.target.value });
     }
-    handleApellidos(event) {
-        this.setState({ apellido: event.target.value });
-    }
+    handleApellido (event){
+        this.setState({ apellido: event.target.value});
+
+   }    
     handleCorreo(event) {
         this.setState({ correo: event.target.value });
     }
@@ -43,9 +44,9 @@ class Registro extends Component {
     handleSubmit(e) {
         e.preventDefault();
         alert('El nombre completo es: ' + this.state.nombre);
-        alert('El apellido es:' + this.state.apellidos);
+        alert('El apellido es:' + this.state.apellido);
         alert('El correo asignado es:' + this.state.correo);
-        alert('La profesión asignada es:' + this.state.correo);
+        alert('La profesión asignada es:' + this.state.profesion);
         alert('La dirección asignada es:' + this.state.direccion);
     }
 
@@ -66,13 +67,13 @@ class Registro extends Component {
                     </div>
 
                     <div className="input-block">
-                        <label for="username" class="label">Apellidos del Usuario</label>
-                        <input type="text" name="username" class="input username-input" aria-describedby="apellidos" placeholder="Ingrese su apellidos " value={this.state.nombre} onChange={this.handleNombre} />
+                        <label for="apellido" class="label">Apellidos del Usuario</label>
+                        <input type="text" name="apellido" class="input apellido-input" aria-describedby="apellido" placeholder="Ingrese su apellidos " value={this.state.apellido} onChange={this.handleApellido} />
                     </div>
-
+                    
                     <div className="input-block">
-                        <label for="username" class="label">Profesion</label>
-                        <input type="text" name="username" class="input username-input" aria-describedby="profesion" placeholder="Ingrese su profesion " value={this.state.nombre} onChange={this.handleNombre} />
+                        <label for="profesion" class="label">Profesion</label>
+                        <input type="text" name="profesion" class="input profesion-input" aria-describedby="profesion" placeholder="Ingrese su profesion " value={this.state.profesion} onChange={this.handleProfesion} />
                     </div>
 
 
