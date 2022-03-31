@@ -21,7 +21,7 @@ class cont extends Component {
                     <div class="row ">
             
                         <div class="col-sm-8">
-
+                        
                             <img src={Imag1} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
 
                             <div class="card-body ">
@@ -42,7 +42,7 @@ class cont extends Component {
                                     <p>Ingeniero en sistemas computacionales </p>
                                     <p>ENCARGADO DE LA EMPRESA </p>
                                     <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Jorge J Cambrano </p>
-                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 91-61-317-186.</p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 9161317186.</p>
                                 </div>
                             </div>
 
@@ -53,23 +53,24 @@ class cont extends Component {
                         
                       
 
-                        <div class="col-sm-8">
-                            <img src={imag5} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
-                            <div class="card-body ">
-                                <p class="card-text">PATRICIA GPE MENDOZA LOPEZ</p>
-                                <p>Ingeniero en sistemas computacionales</p>
-                                <p>Analista</p>
-                                <p>  <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/>  paty mendoza  </p>
-                                 <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/>  +52 934-110-99-57</p>
-                            </div>
-                        </div>
-
-
-
-
-
-
                         
+
+
+
+                        <div className="col-sm-4">
+                            <div class="container-fluid bg-3 text-center">
+                                <img src={imag5} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
+
+                                <div class="card-body">
+                                    <p class="card-text">   PATRICIA GPE MENDOZA LOPEZ  </p>
+                                    <p>Ingeniero en sistemas computacionales </p>
+                                    <p>Analista</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> PATRICIA MENDOZA</p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
+                                </div>
+                            </div>
+
+                        </div>
 
                         <div className="col-sm-4">
                             <div class="container-fluid bg-3 text-center">
@@ -87,23 +88,21 @@ class cont extends Component {
                         </div>
 
 
-                        <div class="col-sm-8">
-                            <img src={imag6} class="img-thumbnail" alt="Cinque Terre" width="150px" height="150px" margin="auto" display="inline-block" />
-                            <div class="card-body ">
-                                <p class="card-text">JULIO CESAR ALVARO LOPEZ</p>
-                                <p>Ingeniero en sistemas computacionales</p>
-                                <p>Diseñador</p>
-                                <p>  <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/>  julio lopez  </p>
-                                 <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/>  +52 993-573-0811</p>
+
+                        <div className="col-sm-4">
+                            <div class="container-fluid bg-3 text-center">
+                                <img src={imag6} class="img-thumbnail " alt="Cinque Terre" width="150px" height="150px" paddig="250px" />
+
+                                <div class="card-body">
+                                    <p class="card-text">JULIO CESAR ALVARO LOPEZ  </p>
+                                    <p>Ingeniero en sistemas computacionales </p>
+                                    <p>Diseñador</p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Julio LOPEZ </p>
+                                    <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
+                                </div>
                             </div>
+
                         </div>
-
-
-
-
-
-
-                        
 
 
                         <div className="col-sm-4">
@@ -114,7 +113,7 @@ class cont extends Component {
                                     <p class="card-text">GERSON ISAI CRUZ VELAZQUEZ  </p>
                                     <p>Ingeniero en sistemas computacionales </p>
                                     <p>Analista</p>
-                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Gerson cruz </p>
+                                    <p> <img src={FACEBOOK} class="img-rounded" alt="Login" width="60" height="60"/> Julio LOPEZ </p>
                                     <p> <img src={WhatsApp} class="img-rounded" alt="Login" width="60" height="60"/> +52 934-110-99-57</p>
                                 </div>
                             </div>
