@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import './sesion.css';
 
 
@@ -41,8 +43,11 @@ class sesion extends Component {
                     </div>
 
 
-                    <div class="input-block">
-                        <input type="submit" value="Registrarse " class="input-submit" />
+                    <div class="input-block">                        
+                        <form method="get" action="/Menuprincipal">
+                            <button type="submit" class="input-submit">Iniciar</button>
+                        </form>
+
                     </div>
                 </form>
 

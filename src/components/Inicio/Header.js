@@ -5,6 +5,7 @@ import Contacto from '../../contactos/contacto';
 import Sesion from '../../contactos/sesion';
 import Home from '../../pages/Home';
 import Blog from '../../Blog/blog';
+import Menuprincipal from '../../pages/Menuprincipal';
 
 import Imag from './../../Imagenes/FotosS/logiyy.png';
 import Img2 from './../../Imagenes/FotosS/arbo.png';
@@ -52,6 +53,8 @@ class Header extends Component {
                                 <li class="nav-item active">
                                     <Link className="nav-link" to="/Blog">Blog<img src={ico} class="img-rounded" alt="Login" width="50" height="50"/></Link>       
                                 </li>
+
+                                
   
                                
                             </ul>
@@ -72,6 +75,7 @@ class Header extends Component {
                         <Route path= "/registro" exact component={Registro}/>
                         <Route path= "/sesion" exact component= {Sesion}/>
                         <Route path= "/blog" exact component= {Blog}/>
+                        <Route path= "/Menuprincipal" exact component= {Menuprincipal}/>
                  
                     </Switch>
                 </div>

@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 import Header from './components/Inicio/Header';
 import './pages/home.css';
 import Menuprincipal from './pages/Menuprincipal';
+import registro from './contactos/registro';
 
 class App extends Component {
-  render(){
+  render() {
 
-  return (
+    return (
 
-    <div className="App">
+      <div className="App">
+        
+        <Header/> 
+
+      </div>
       
-      <Header/>
-   </div>
-// <Menuprincipal/>
-    
-  );
-}
+    );
+  }
 }
 export default App;
