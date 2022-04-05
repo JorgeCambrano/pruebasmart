@@ -7,6 +7,7 @@ import Home from '../../pages/Home';
 import Blog from '../../Blog/blog';
 import Menuprincipal from '../../pages/Menuprincipal';
 import regisven from '../../contactos/regisven';
+import Menusecundario from '../../pages/Menusecundario';
 
 import Imag from './../../Imagenes/FotosS/logiyy.png';
 import Img2 from './../../Imagenes/FotosS/arbo.png';
@@ -35,7 +36,7 @@ class Header extends Component {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <Link className="nav-link" to="contacto">Informate<img src={Img2} class="img-rounded" alt="Login" width="50" height="50" /><span class="sr-only">(current)</span></Link>
+                                    <Link className="nav-link" to="contacto">¡Quienes somos!<img src={Img2} class="img-rounded" alt="Login" width="50" height="50" /><span class="sr-only">(current)</span></Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"></a>
@@ -44,8 +45,8 @@ class Header extends Component {
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Registro <img src={Ser} class="img-rounded" alt="Login" width="60" height="60"/></a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link className="dropdown-item" to="/regisven">|Vendedor|<img src={sem} class="img-rounded" alt="Login" width="50" height="50" /></Link>
-                                        <Link className="dropdown-item" to="/Registro">|Comprador|<img src={sem1} class="img-rounded" alt="Login" width="50" height="50" /></Link>
+                                        <Link className="dropdown-item" to="/regisven">|Vendedor |<img src={sem} class="img-rounded" alt="Login" width="50" height="50" /></Link>
+                                        <Link className="dropdown-item" to="/Registro">|Comprador |<img src={sem1} class="img-rounded" alt="Login" width="50" height="50" /></Link>
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="/sesion">|Iniciar Sesion|<img src={sem2} class="img-rounded" alt="Login" width="50" height="50" /> </a>
                                     </div>
@@ -77,6 +78,7 @@ class Header extends Component {
                         <Route path= "/sesion" exact component= {Sesion}/>
                         <Route path= "/blog" exact component= {Blog}/>
                         <Route path= "/Menuprincipal" exact component= {Menuprincipal}/>
+                        <Route path= "/Menusecundario" exact component= {Menusecundario}/>
                         <Route path= "/regisven" exact component= {regisven}/>
                  
                     </Switch>

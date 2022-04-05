@@ -16,7 +16,7 @@ class regisven extends Component {
         }
 
         this.handleNombre = this.handleNombre.bind(this);
-        this.handleApellido = this.handleApellido.bind(this);        
+        this.handleApellido = this.handleApellido.bind(this);
         this.handleCorreo = this.handleCorreo.bind(this);
         this.handleProfesion = this.handleProfesion.bind(this);
         this.handleDireccion = this.handleDireccion.bind(this);
@@ -26,10 +26,10 @@ class regisven extends Component {
     handleNombre(event) {
         this.setState({ nombre: event.target.value });
     }
-    handleApellido (event){
-        this.setState({ apellido: event.target.value});
+    handleApellido(event) {
+        this.setState({ apellido: event.target.value });
 
-   }    
+    }
     handleCorreo(event) {
         this.setState({ correo: event.target.value });
     }
@@ -50,7 +50,7 @@ class regisven extends Component {
         alert('La dirección asignada es:' + this.state.direccion);
     }
 
-    
+
 
     render() {
         return (
@@ -60,7 +60,7 @@ class regisven extends Component {
                 <br />
 
                 <form class="formi">
-                    <h2 className="formi-title"> REGISTRARSE DEL VENDEDOR</h2>
+                    <h2 className="formi-title"> REGISTRO DEL VENDEDOR</h2>
 
                     <div className="input-block">
                         <label for="username" class="label">Nombre de Usuario</label>
@@ -71,9 +71,12 @@ class regisven extends Component {
                         <label for="apellido" class="label">Apellidos del Usuario</label>
                         <input type="text" name="apellido" class="input apellido-input" aria-describedby="apellido" placeholder="Ingrese su apellidos " value={this.state.apellido} onChange={this.handleApellido} />
                     </div>
-                    
-                    
 
+
+                    <div className="input-block">
+                        <label for="profesion" class="label">Profesion</label>
+                        <input type="text" name="profesion" class="input profesion-input" aria-describedby="profesion" placeholder="Ingrese su profesion " value={this.state.profesion} onChange={this.handleProfesion} />
+                    </div>
 
 
 
@@ -88,7 +91,19 @@ class regisven extends Component {
                     </div>
 
 
-                    <input   type="submit" value="Enviar" className="btn btn-primary" />
+                    
+
+
+                    <div class="input-block">
+
+                        <form method="get" action="/Menusecundario">
+                            <button type="submit" class="input-submit">Enviar</button>
+                        </form>
+
+                    </div>
+
+
+
 
                 </form>
 
@@ -96,7 +111,7 @@ class regisven extends Component {
 
 
 
-           
+
         );
     }
 }

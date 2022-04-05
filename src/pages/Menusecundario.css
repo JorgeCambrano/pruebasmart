@@ -1,0 +1,17 @@
+
+.card{
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+.contenedor {
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.card-header{
+    background-color: chocolate;
+}

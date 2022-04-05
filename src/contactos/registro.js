@@ -60,7 +60,7 @@ class Registro extends Component {
                 <br />
 
                 <form class="formi">
-                    <h2 className="formi-title"> REGISTRARSE</h2>
+                    <h2 className="formi-title">  REGISTRO DEL COMPRADOR</h2>
 
                     <div className="input-block">
                         <label for="username" class="label">Nombre de Usuario</label>
@@ -72,10 +72,7 @@ class Registro extends Component {
                         <input type="text" name="apellido" class="input apellido-input" aria-describedby="apellido" placeholder="Ingrese su apellidos " value={this.state.apellido} onChange={this.handleApellido} />
                     </div>
                     
-                    <div className="input-block">
-                        <label for="profesion" class="label">Profesion</label>
-                        <input type="text" name="profesion" class="input profesion-input" aria-describedby="profesion" placeholder="Ingrese su profesion " value={this.state.profesion} onChange={this.handleProfesion} />
-                    </div>
+                    
 
 
 
@@ -92,7 +89,19 @@ class Registro extends Component {
                     </div>
 
 
-                    <input   type="submit" value="Enviar" className="btn btn-primary" />
+                   
+                    <div class="input-block">       
+
+                        <form method="get" action="/Menuprincipal">
+                            <button type="submit" class="input-submit">Enviar</button>
+                        </form>
+
+                    </div>
+
+
+
+
+                    
 
                 </form>
 

@@ -3,6 +3,7 @@ import Header from './components/Inicio/Header';
 import './pages/home.css';
 import Menuprincipal from './pages/Menuprincipal';
 import registro from './contactos/registro';
+import Menusecundario from './pages/Menusecundario';
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
         <Header/> 
 
       </div>
-      
+      //<Header/> <Menusecundario/>
     );
   }
 }
