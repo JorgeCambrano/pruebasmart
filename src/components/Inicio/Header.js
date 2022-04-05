@@ -34,17 +34,17 @@ class Header extends Component {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <Link className="nav-link" to="Inicio">Informate<img src={Img2} class="img-rounded" alt="Login" width="50" height="50" /><span class="sr-only">(current)</span></Link>
+                                    <Link className="nav-link" to="contacto">Informate<img src={Img2} class="img-rounded" alt="Login" width="50" height="50" /><span class="sr-only">(current)</span></Link>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"></a>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Servicios <img src={Ser} class="img-rounded" alt="Login" width="60" height="60"/></a>
+                                        Registro <img src={Ser} class="img-rounded" alt="Login" width="60" height="60"/></a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link className="dropdown-item" to="/Contacto">|Contacto|<img src={sem} class="img-rounded" alt="Login" width="50" height="50" /></Link>
-                                        <Link className="dropdown-item" to="/Registro">|Registro|<img src={sem1} class="img-rounded" alt="Login" width="50" height="50" /></Link>
+                                        <Link className="dropdown-item" to="/Contacto">|Vendedor|<img src={sem} class="img-rounded" alt="Login" width="50" height="50" /></Link>
+                                        <Link className="dropdown-item" to="/Registro">|Comprador|<img src={sem1} class="img-rounded" alt="Login" width="50" height="50" /></Link>
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="/sesion">|Iniciar Sesion|<img src={sem2} class="img-rounded" alt="Login" width="50" height="50" /> </a>
                                     </div>
