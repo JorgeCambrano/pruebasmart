@@ -6,6 +6,7 @@ import Sesion from '../../contactos/sesion';
 import Home from '../../pages/Home';
 import Blog from '../../Blog/blog';
 import Menuprincipal from '../../pages/Menuprincipal';
+import regisven from '../../contactos/regisven';
 
 import Imag from './../../Imagenes/FotosS/logiyy.png';
 import Img2 from './../../Imagenes/FotosS/arbo.png';
@@ -43,7 +44,7 @@ class Header extends Component {
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Registro <img src={Ser} class="img-rounded" alt="Login" width="60" height="60"/></a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <Link className="dropdown-item" to="/Contacto">|Vendedor|<img src={sem} class="img-rounded" alt="Login" width="50" height="50" /></Link>
+                                        <Link className="dropdown-item" to="/regisven">|Vendedor|<img src={sem} class="img-rounded" alt="Login" width="50" height="50" /></Link>
                                         <Link className="dropdown-item" to="/Registro">|Comprador|<img src={sem1} class="img-rounded" alt="Login" width="50" height="50" /></Link>
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="/sesion">|Iniciar Sesion|<img src={sem2} class="img-rounded" alt="Login" width="50" height="50" /> </a>
@@ -76,6 +77,7 @@ class Header extends Component {
                         <Route path= "/sesion" exact component= {Sesion}/>
                         <Route path= "/blog" exact component= {Blog}/>
                         <Route path= "/Menuprincipal" exact component= {Menuprincipal}/>
+                        <Route path= "/regisven" exact component= {regisven}/>
                  
                     </Switch>
                 </div>
