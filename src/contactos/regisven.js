@@ -3,7 +3,7 @@ import './sesion.css';
 import './form.css';
 
 
-class Registro extends Component {
+class regisven extends Component {
     constructor(props) {
         super(props);
 
@@ -16,7 +16,7 @@ class Registro extends Component {
         }
 
         this.handleNombre = this.handleNombre.bind(this);
-        this.handleApellido = this.handleApellido.bind(this);        
+        this.handleApellido = this.handleApellido.bind(this);
         this.handleCorreo = this.handleCorreo.bind(this);
         this.handleProfesion = this.handleProfesion.bind(this);
         this.handleDireccion = this.handleDireccion.bind(this);
@@ -26,10 +26,10 @@ class Registro extends Component {
     handleNombre(event) {
         this.setState({ nombre: event.target.value });
     }
-    handleApellido (event){
-        this.setState({ apellido: event.target.value});
+    handleApellido(event) {
+        this.setState({ apellido: event.target.value });
 
-   }    
+    }
     handleCorreo(event) {
         this.setState({ correo: event.target.value });
     }
@@ -50,7 +50,7 @@ class Registro extends Component {
         alert('La dirección asignada es:' + this.state.direccion);
     }
 
-    
+
 
     render() {
         return (
@@ -60,7 +60,7 @@ class Registro extends Component {
                 <br />
 
                 <form class="formi">
-                    <h2 className="formi-title">  REGISTRO DEL COMPRADOR</h2>
+                    <h2 className="formi-title"> REGISTRO DEL VENDEDOR</h2>
 
                     <div className="input-block">
                         <label for="username" class="label">Nombre de Usuario</label>
@@ -71,10 +71,12 @@ class Registro extends Component {
                         <label for="apellido" class="label">Apellidos del Usuario</label>
                         <input type="text" name="apellido" class="input apellido-input" aria-describedby="apellido" placeholder="Ingrese su apellidos " value={this.state.apellido} onChange={this.handleApellido} />
                     </div>
-                    
-                    
 
 
+                    <div className="input-block">
+                        <label for="profesion" class="label">Profesion</label>
+                        <input type="text" name="profesion" class="input profesion-input" aria-describedby="profesion" placeholder="Ingrese su profesion " value={this.state.profesion} onChange={this.handleProfesion} />
+                    </div>
 
 
 
@@ -89,10 +91,12 @@ class Registro extends Component {
                     </div>
 
 
-                   
-                    <div class="input-block">       
+                    
 
-                        <form method="get" action="/Menuprincipal">
+
+                    <div class="input-block">
+
+                        <form method="get" action="/Menusecundario">
                             <button type="submit" class="input-submit">Enviar</button>
                         </form>
 
@@ -101,17 +105,15 @@ class Registro extends Component {
 
 
 
-                    
-
                 </form>
 
             </div>
 
 
 
-           
+
         );
     }
 }
 
-export default Registro;
+export default regisven;
